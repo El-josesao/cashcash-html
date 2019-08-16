@@ -4,7 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 body {
+  font-family: 'Montserrat', sans-serif;
+  color: #39495C;
   overflow-x: hidden;
+}
+
+h1,h2{
+  font-weight: 900;
+}
+
+h3,h4,h5{
+  font-weight: 700;
+}
+
+code{
+  color: #ED342C;
 }
 
 #sidebar-wrapper {
@@ -18,7 +32,7 @@ body {
 
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 #sidebar-wrapper .list-group {
@@ -46,4 +60,51 @@ body {
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -15rem;
   }
+}
+
+.text-brand{
+  font-family: 'Fredoka One', cursive;
+}
+
+.text-brand-primary{
+  color: #ED342C;
+}
+
+.text-brand-secondary{
+  color: #39495C;
+}
+
+.fa-secondary{
+  color: rgba(57,73,92,0.6);
+}
+
+.fa-fw {
+    text-align: center;
+    width: 1.25em;
+}
+
+.btn-cashcash-primary{
+  background-color: #39495C;
+  color: #FFFFFF !important;
+}
+
+.btn-cashcash-primary:hover{
+  background-color: #566E8B;
+}
+
+.form-control{
+  border-radius: 0.8rem;
+}
+
+.form-control:focus {
+  color: #6e707e;
+  background-color: #fff;
+  border: #39495C solid 1px;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(57, 73, 92, 0);
+  box-shadow: 0 0 0 0.2rem rgba(57, 73, 92, 0);
+}
+
+.rounded-5{
+  border-radius: 2.0rem;
 }
