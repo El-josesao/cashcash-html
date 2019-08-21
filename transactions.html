@@ -61,61 +61,83 @@
         </div>
       </nav>
       <div class="container-fluid pb-5">
-        <h1 class="text-brand-primary">Dashboard</h1>
-        <p class="text-sm">Manage your money with ease.</p>
-        <div class="row">
-          <div class="col">
-            <h2>Accounts</h2>
-            <p>Net income <strong>$1,000</strong></p>
-            <ul class="list-unstyled">
-              <li><a href="#">Cash on hand $3,000</a></li>
-              <li><a href="#">Santander Debit XXXX $2,000</a></li>
-              <li><a href="#">Santander Credit XXXX -$4,000</a></li>
-            </ul>
-            <a href="#" class="btn btn-primary">New account</a>
-            <div class="mt-5"></div>
-            <h2>Categories</h2>
-            <p>Most used</p>
-            <ul class="list-unstyled">
-              <li><a href="#">Sales</a></li>
-              <li><a href="#">Transportation</a></li>
-              <li><a href="#">Rent</a></li>
-              <li><a href="#">Payroll</a></li>
-              <li><a href="#">Home & Maintenance</a></li>
-            </ul>
-            <a href="#" class="btn btn-primary">New category</a>            
-          </div>
-          <div class="col">
-            <h2>Averages</h2>
-            <p>All time</p>
-            <div class="row">
-              <div class="col text-center">
-                <div class="card">
-                  <div class="card-body">
-                    <h3 class="text-success">$5,000</h3>
-                  </div>
-                </div>
-                <p>Average monthly income</p>
-              </div>
-              <div class="col text-center">
-                <div class="card">
-                  <div class="card-body">
-                    <h3>$5,000</h3>
-                  </div>
-                </div>
-                <p>Average monthly expense</p>
-              </div>              
-            </div>
-            <div class="mt-5"></div>
-            <h2>Cash Flow</h2>
-            <p>Last 12 months</p>
-            [LINE_CHART]
-            <div class="mt-5"></div>
-            <h2>Expenses Breakdown</h2>
-            <p>This year</p>
-            [PIE_CHART]            
-          </div>
-        </div>        
+        <h1 class="text-brand-primary">Transactions</h1>
+        <p class="text-sm">Lorem ipsum dolor sit amet...</p>
+        <a href="#" class="btn btn-primary">New transaction</a>
+        <nav class="navbar navbar-light bg-light mt-3 mb-3">
+          <form class="form-inline">
+            <input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search by description..." aria-label="Search">
+            <button class="btn btn-sm btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <form class="form-inline">
+            <select class="custom-select custom-select-sm mr-sm-2">
+              <option>All accounts</option>
+              <option>Cash on hand</option>
+              <option>Santander debit XXXX</option>
+              <option>Santander credit XXXX</option>
+            </select>
+            <select class="custom-select custom-select-sm mr-sm-2">
+              <option>All categories</option>
+              <option>Sales</option>
+              <option>Transportation</option>
+              <option>Rent</option>
+              <option>Payroll</option>
+              <option>Home & Maintenance</option>
+            </select>
+            <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Select date range..." aria-label="date-range">
+            <button class="btn btn-sm btn-outline-primary my-2 my-sm-0" type="submit"><i class="fas fa-filter"></i></button>
+          </form>          
+        </nav>
+        <p>
+          <span class="text-sm text-gray">Transactions from <strong>2019/05/01</strong> to <strong>2019/08/15</strong> in <strong>All accounts</strong> / <strong>All categories</strong></span>
+          <span>
+            <a href="#" class="btn btn-sm btn-link">Export to CSV</a>
+            <a href="#" class="btn btn-sm btn-link">Export to PDF</a>
+          </span>          
+        </p>
+        <table id="myTable" class="table table-sm">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Description</th>
+              <th>Amount</th>
+              <th>Category</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2019/08/21</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</td>
+              <td><span class="text-success">$550.00</span></td>
+              <td>Uncategorized income</td>
+              <td><a href="#"><i class="fas fa-edit"></i></a></td>
+            </tr>
+            <tr>
+              <td>2019/11/15</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</td>
+              <td><span class="text-success">$420.00</span></td>
+              <td>Uncategorized income</td>
+              <td><a href="#"><i class="fas fa-edit"></i></a></td>
+            </tr>
+            <tr>
+              <td>2019/11/20</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</td>
+              <td>$420.00</td>
+              <td>Uncategorized expense</td>
+              <td><a href="#"><i class="fas fa-edit"></i></a></td>
+            </tr>            
+          </tbody>
+        </table>
+        <nav class="nav justify-content-center">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i> Prev</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next <i class="fas fa-angle-right"></i></a></li>
+          </ul>
+        </nav>
       </div>
       <!-- /.container-fluid -->
       <footer class="text-center bg-light pt-3 pb-3">

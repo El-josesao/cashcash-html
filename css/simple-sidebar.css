@@ -89,6 +89,10 @@ code{
   color: #39495C;
 }
 
+.text-gray{
+  color: rgba(57,73,92,0.6);
+}
+
 .fa-light{
   color: rgba(57,73,92,0.6);
 }
@@ -105,10 +109,6 @@ code{
 
 .btn-cashcash-primary:hover{
   background-color: #566E8B;
-}
-
-.form-control{
-  border-radius: 0.8rem;
 }
 
 .form-control:focus {
