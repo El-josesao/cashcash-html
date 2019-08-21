@@ -138,6 +138,107 @@
             <li class="page-item"><a class="page-link" href="#">Next <i class="fas fa-angle-right"></i></a></li>
           </ul>
         </nav>
+        <h5 class="text-brand-secondary">Transaction form</h5>
+        <form>
+        <div class="card">
+          <div class="card-body">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-transaction-tab" data-toggle="tab" href="#nav-transaction" role="tab" aria-controls="nav-transaction" aria-selected="true">Transaction details</a>
+                <a class="nav-item nav-link" id="nav-sat-tab" data-toggle="tab" href="#nav-sat" role="tab" aria-controls="nav-sat" aria-selected="false">SAT (Mexico only)</a>
+              </div>
+            </nav>
+            <div class="tab-content mt-3" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="nav-transaction" role="tabpanel" aria-labelledby="nav-transaction-tab">
+                <div class="form-group">
+                  <label>Description</label>
+                  <input type="text" name="" class="form-control">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <label>Account</label>
+                    <select class="custom-select">
+                      <option>Cash on hand</option>
+                    </select>
+                  </div>                
+                  <div class="form-group col">
+                    <label>Date</label>
+                    <input type="text" name="" class="form-control">
+                  </div>                  
+                </div>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <label>Deposit or Withdrawal</label>
+                    <select class="custom-select">
+                      <option>Deposit</option>
+                    </select>
+                  </div>                
+                  <div class="form-group col">
+                    <label>Total Amount</label>
+                    <input type="text" name="" class="form-control">
+                  </div>                  
+                </div>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <label>Category</label>
+                    <select class="custom-select">
+                      <option>Uncategorized income</option>
+                    </select>
+                  </div>                
+                  <div class="form-group col">
+                    <label>Invoice</label><br>
+                    <a href="#" class="btn btn-link">invoice-2019082215A.pdf</a>
+                    <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                    <input type="file" name="">
+                  </div>                  
+                </div>                                                
+              </div>
+              <div class="tab-pane fade" id="nav-sat" role="tabpanel" aria-labelledby="nav-sat-tab">
+                <div class="form-group">
+                  <label>Folio</label>
+                  <input type="text" name="" class="form-control">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <label>Issued by</label>
+                    <input type="text" name="" class="form-control">
+                  </div>
+                  <div class="form-group col">
+                    <label>Issued RFC</label>
+                    <input type="text" name="" class="form-control">
+                  </div>                                  
+                </div>
+                <div class="form-group">
+                  <label>Payment Method</label>
+                  <select class="custom-select">
+                    <option>Cash</option>
+                    <option>...</option>
+                  </select>                  
+                </div>
+                <div class="form-row">
+                  <div class="form-group col">
+                    <label>PDF Invoice</label><br>
+                    <a href="#" class="btn btn-link">invoice-2019082215A.pdf</a>
+                    <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                    <input type="file" name="">
+                  </div>
+                  <div class="form-group col">
+                    <label>XML Invoice</label><br>
+                    <a href="#" class="btn btn-link">invoice-2019082215A.pdf</a>
+                    <a href="#" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
+                    <input type="file" name="">
+                  </div>                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-right">
+            <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+            <a href="#" class="btn btn-secondary"><i class="fas fa-copy"></i></a>
+            <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+        </form>
       </div>
       <!-- /.container-fluid -->
       <footer class="text-center bg-light pt-3 pb-3">
