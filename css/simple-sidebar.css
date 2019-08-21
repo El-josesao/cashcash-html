@@ -3,17 +3,18 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #39495C;
   overflow-x: hidden;
 }
 
-h1,h2{
+h1{
   font-weight: 900;
 }
 
-h3,h4,h5{
+h2, h3, h4, h5{
   font-weight: 700;
 }
 
@@ -30,6 +31,7 @@ code{
   transition: margin .25s ease-out;
 }
 
+
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
   font-size: 1.8rem;
@@ -42,6 +44,7 @@ code{
 #page-content-wrapper {
   min-width: 100vw;
 }
+
 
 #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
@@ -62,6 +65,18 @@ code{
   }
 }
 
+.text-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-sm{
+  font-size: 0.8rem;
+}
+
+.font-weight-300{
+  font-weight: 300 !important;
+}
+
 .text-brand{
   font-family: 'Fredoka One', cursive;
 }
@@ -74,7 +89,7 @@ code{
   color: #39495C;
 }
 
-.fa-secondary{
+.fa-light{
   color: rgba(57,73,92,0.6);
 }
 
@@ -103,8 +118,4 @@ code{
   outline: 0;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(57, 73, 92, 0);
   box-shadow: 0 0 0 0.2rem rgba(57, 73, 92, 0);
-}
-
-.rounded-5{
-  border-radius: 2.0rem;
 }
