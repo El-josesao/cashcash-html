@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>cashcash-rails - Money management with ease</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Montserrat:400,700,900&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/61edada64c.js"></script>
+</head>
+<body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading text-brand">
+        <a href="index.html" style="text-decoration: none;">
+          <span class="text-brand-secondary">cash</span><span class="text-brand-primary">cash-rails</span>
+        </a>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action">
+          <i class="fas fa-fw fa-light fa-tachometer-alt"></i> Dashboard
+        </a>
+        <a href="transactions.html" class="list-group-item list-group-item-action">
+          <i class="fas fa-fw fa-light fa-money-check-alt"></i> Transactions
+        </a>
+        <a href="accounts.html" class="list-group-item list-group-item-action">
+          <i class="fas fa-fw fa-light fa-wallet"></i> Accounts
+        </a>
+        <a href="categories.html" class="list-group-item list-group-item-action">
+          <i class="fas fa-fw fa-light fa-tags"></i> Categories
+        </a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <button class="btn btn-cashcash-primary" id="menu-toggle"><i class="fas fa-bars"></i></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-fw fa-light fa-user-circle"></i> user@example.com
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><i class="fas fa-fw fa-light fa-key"></i> Change my password</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"><i class="fas fa-fw fa-light fa-power-off"></i> Logout</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid pb-5">
+        <h1 class="text-brand-primary">Categories</h1>
+        <p class="text-sm">Lorem ipsum dolor sit amet...</p>
+        <a href="#" class="btn btn-primary">New category</a>
+        <div class="mt-3"></div>
+        <table id="myTable" class="table table-sm">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Associated Transaction Type</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sales</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</td>
+              <td>Deposit</td>
+              <td><a href="#"><i class="fas fa-edit"></i></a></td>
+            </tr>
+            <tr>
+              <td>Home Maintenance</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</td>
+              <td>Withdrawal</td>
+              <td><a href="#"><i class="fas fa-edit"></i></a></td>
+            </tr>
+            <tr>
+              <td>Transportation</td>
+              <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod..</td>
+              <td>Withdrawal</td>
+              <td><a href="#"><i class="fas fa-edit"></i></a></td>
+            </tr>                                    
+          </tbody>
+        </table>
+        <nav class="nav justify-content-center">
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-left"></i> Prev</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next <i class="fas fa-angle-right"></i></a></li>
+          </ul>
+        </nav>
+        <div class="mt-5"></div>
+        <h5 class="text-brand-secondary">Category Form</h5>
+        <form>
+        <div class="card">
+          <div class="card-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <label>Category Name</label>
+                  <input type="text" name="" class="form-control" value="Sales">
+                </div>                
+                <div class="form-group col">
+                  <label>Associated Transaction Type</label>
+                  <select class="custom-select">
+                    <option>Deposit</option>
+                    <option>Withdrawal</option>
+                  </select>
+                </div>                  
+              </div>
+              <textarea class="form-control" placeholder="Description..."></textarea>                      
+            </form>
+          </div>
+          <div class="card-footer text-right">
+            <a href="#" class="btn btn-danger"><i class="fas fa-trash"></i></a>
+            <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+        </form>
+      </div>
+      <!-- /.container-fluid -->
+      <footer class="text-center bg-light pt-3 pb-3">
+        <span class="text-brand text-brand-secondary">cash</span><span class="text-brand text-brand-primary">cash-rails</span>
+        <div class="text-sm">
+          2019. Ruby on Rails application for money management.<br>
+          <a href="https://github.com/tolesco"><i class="fab fa-github"></i> @tolesco</a>
+        </div>
+      </footer>
+    </div>
+    <!-- /#page-content-wrapper -->
+  </div>
+  <!-- /#wrapper -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+</body>
+</html>
