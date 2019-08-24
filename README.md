@@ -1,12 +1,14 @@
-# [cashcash-rails HTML theme](http://cashcash-html.s3-website-us-east-1.amazonaws.com)
+![cashcash-rails preview](https://cashcash-html.s3.amazonaws.com/cashcash-header-preview.png)
 
-[cashcash-rails HTML theme](http://cashcash-html.s3-website-us-east-1.amazonaws.com) is a template designed for the Ruby on Rails workshop cashcash-rails created by [@tolesco](https://github.com/tolesco). Forked from Simple Sidebar Template created by [Start Bootstrap](http://startbootstrap.com/).
+# cashcash-rails HTML theme
+
+cashcash-rails HTML theme is a template designed for the Ruby on Rails workshop cashcash-rails created by [@tolesco](https://github.com/tolesco). Forked from Simple Sidebar Template created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Preview
 You can view the live preview in hosted AWS S3 website: [View Live Preview](http://cashcash-html.s3-website-us-east-1.amazonaws.com/)
 
 ## Mockups
-You can view and download all the available mockups (wireframes) created for this workshop from here: [Mockups and Screenshots for cashcash-html](https://github.com/tolesco/cashcash-html/mockups/)
+You can view and download all the available mockups (wireframes) created for this workshop from here: [Mockups and Screenshots for cashcash-html](https://github.com/tolesco/cashcash-html/tree/master/mockups)
 
 Mockups were designed on [Balsamiq Wireframes](https://balsamiq.com/wireframes/). The source file (.bmpr) is also available from the same /mockups folder on this repository.
 
@@ -42,6 +44,6 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2019 Jesús Francisco Rodríguez Pérez @tolesco. Code released under the [MIT License](https://github.com/tolesco/cashcash-html/LICENSE).
+Copyright 2019 Jesús Francisco Rodríguez Pérez @tolesco. Code released under the [MIT License](https://github.com/tolesco/cashcash-html/blob/master/LICENSE).
 
 **// Codea Libre!**
