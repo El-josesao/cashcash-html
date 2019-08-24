@@ -1,6 +1,6 @@
-![cashcash-rails preview](https://cashcash-html.s3.amazonaws.com/cashcash-header-preview.png)
-
 # cashcash-rails HTML theme
+
+![cashcash-rails preview](https://cashcash-html.s3.amazonaws.com/cashcash-header-preview.png)
 
 cashcash-rails HTML theme is a template designed for the Ruby on Rails workshop cashcash-rails created by [@tolesco](https://github.com/tolesco). Forked from Simple Sidebar Template created by [Start Bootstrap](http://startbootstrap.com/).
 
@@ -8,6 +8,9 @@ cashcash-rails HTML theme is a template designed for the Ruby on Rails workshop 
 You can view the live preview in hosted AWS S3 website: [View Live Preview](http://cashcash-html.s3-website-us-east-1.amazonaws.com/)
 
 ## Mockups
+
+![cashcash-rails mockups preview](https://cashcash-html.s3.amazonaws.com/mockups-preview.png)
+
 You can view and download all the available mockups (wireframes) created for this workshop from here: [Mockups and Screenshots for cashcash-html](https://github.com/tolesco/cashcash-html/tree/master/mockups)
 
 Mockups were designed on [Balsamiq Wireframes](https://balsamiq.com/wireframes/). The source file (.bmpr) is also available from the same /mockups folder on this repository.
