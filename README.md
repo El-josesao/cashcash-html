@@ -2,7 +2,7 @@
 
 ![cashcash-rails preview](https://cashcash-html.s3.amazonaws.com/cashcash-header-preview.png)
 
-cashcash-rails HTML theme is a template designed for the Ruby on Rails workshop cashcash-rails created by [@tolesco](https://github.com/tolesco). Forked from Simple Sidebar Template created by [Start Bootstrap](http://startbootstrap.com/).
+cashcash-rails HTML theme is a template designed for the Ruby on Rails workshop [cashcash-rails](https://github.com/tolesco/cashcash-rails) created by [@tolesco](https://github.com/tolesco). Forked from Simple Sidebar Template created by [Start Bootstrap](http://startbootstrap.com/).
 
 ## Preview
 You can view the live preview in hosted AWS S3 website: [View Live Preview](http://cashcash-html.s3-website-us-east-1.amazonaws.com/)
